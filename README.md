@@ -7,9 +7,9 @@ Este script se ejecuta al iniciar sesión y garantiza que la configuración del 
 
 ## Funcionalidades principales
 
-1. **Configuración centralizada**: Actualiza el archivo `prefs.js` con las preferencias definidas, como por ejemplo: Proxy y sus excepciones, página de inicio, ubicación predeterminada para guardar descargas y asegura que todas las estaciones de trabajo tengan la misma configuración.
+1. **Configuración centralizada**: Permite que la configuración que se desee fijar a los navegadores de la red se pueda hacer y mantener de manera centralizada.
 
-2. **Certificados autofirmados**: Al fijar el fichero `cert_override.txt` se autofirman automáticamente páginas seguras (HTTPS) utilizadas en la empresa que no poseen una entidad certificadora, por ejemplo: Sitios internos o páginas como Segurmatica, Virtual Bandec entre otras muchas, además evita que los usuarios vean advertencias de páginas con certificados no firmados.
+2. **Certificados autofirmados**: Se pueden definir las páginas que se quieren autofirmar, locales o de internet como Segurmática, Virtual Bandec entre otras muchas, para evitar que los usuarios vean advertencias de páginas con certificados no firmados.
 
 3. **Personalización flexible**: Facilita la implementación de cambios en toda la organización de manera rápida y eficiente.
 
